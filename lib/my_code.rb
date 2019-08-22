@@ -8,7 +8,7 @@ def map(array)
   return result
 end
 
-def reduce(array, starting_value = 0) |block|
+def reduce(array, starting_value = 0)
   
 end
 
