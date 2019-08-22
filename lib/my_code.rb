@@ -1,5 +1,9 @@
 def map(array)
-  yield()
+  count = 0
+  while array[count] do
+    
+    count += 1
+  end
   
 end
 
