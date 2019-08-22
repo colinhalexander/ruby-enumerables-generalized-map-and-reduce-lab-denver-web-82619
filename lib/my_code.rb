@@ -2,7 +2,7 @@ def map(array) |block|
   
 end
 
-def reduce(array) |block|
+def reduce(array, starting_value = 0) |block|
   
 end
 
