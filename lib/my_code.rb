@@ -12,6 +12,7 @@ def reduce(array, starting_value = 0)
   count = 0
   result = starting_value
   while array[count] do
+    if result == 0
       result = yield(result, array[count])
       count += 1
     else 
