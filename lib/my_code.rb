@@ -9,11 +9,9 @@ def map(array)
 end
 
 def reduce(array, starting_value = 0)
-  
-  result = []
+  result = starting_value
   while array[count] do
     result[count] = yield(array[count])
-    count += 1
   end
   return result
 end
