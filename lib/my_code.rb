@@ -1,4 +1,5 @@
-def map(array) |block|
+def map(array)
+  yield()
   
 end
 
