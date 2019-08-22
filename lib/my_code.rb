@@ -11,7 +11,7 @@ end
 def reduce(array, starting_value = 0)
   count = 0
   result = starting_value
-  while array[count] do
+  while count < array.length do
     result = yield(result, array[count])
     count += 1
   end
